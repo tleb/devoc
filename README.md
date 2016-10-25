@@ -2,7 +2,7 @@
 
 > A free and open-source lexicon for programming-related terms!
 
-The data is stored in a [JSON file](src/data.json) and can be accessed from [the web interface](tleb.github.io/devoc/).
+The data is stored in a [JSON file](src/data.json) and can be accessed from [the web interface](https://tleb.github.io/devoc/).
 
 ## Contribute
 

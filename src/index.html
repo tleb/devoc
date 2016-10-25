@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.2.3/css/bulma.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="main.css">
+  <title>Devoc</title>
+</head>
+<body>
+<div class="container">
+  <header class="header columns">
+    <h1 class="title column is-narrow" id="title">devoc</h1>
+    <p class="control has-icon column" id="input-parent">
+      <input type="text" class="input is-large" id="input" placeholder="Search..." autofocus="autofocus">
+      <i class="fa fa-search"></i>
+    </p>
+    <p class="control column is-narrow">
+      <span class="select is-large">
+        <select id="lang">
+          <option value="en">English</option>
+          <option value="fr">Français</option>
+        </select>
+      </span>
+    </p>
+  </header>
+  <div id="main" class="columns is-multiline">
+  </div>
+</div>
+<script src="main.js"></script>
+</body>
+</html>

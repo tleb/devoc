@@ -1,0 +1,21 @@
+.header {
+    margin-top: 15px;
+}
+
+#title {
+    text-align: center;
+    font-size: 40px;
+}
+
+#input-parent i.fa {
+    left: 23px;
+    top: 23px;
+}
+
+#main div.card {
+    margin-bottom: 15px;
+}
+
+.column.card {
+    box-sizing: border-box;
+}

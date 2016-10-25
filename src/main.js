@@ -138,7 +138,7 @@ function loadData() {
     req.open('GET', 'data.json', true)
 
     req.onload = function() {
-      if (this.status >= 200 && this.status < 400) {
+      if (this.status == 200) {
         data = JSON.parse(this.response)
         input.addEventListener('input', update)
         lang.addEventListener('change', update)

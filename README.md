@@ -1,32 +1,17 @@
 # devoc
 
-> A free and open-source lexicon for programming-related terms!
+> A **free** and **open-source lexicon** for programming-related terms!
 
-The data is stored in a [JSON file](src/data.json) and can be accessed from [the web interface](https://tleb.github.io/devoc/).
+The data is stored in [JSON files](src/data/) and can be accessed from [the web interface](https://tleb.github.io/devoc/).
 
-## Contribute
+## Adding a new term or a translation
 
-The JSON file is an array of every term. Here is an example term:
+Every term must first be defined in english before they can be translated.
+Every JSON file contains an object where keys are the unique IDs of the terms.
+Each term is an object with the following properties:
 
-```json
-{
-    "en": {
-        "name": "english name",
-        "abbrs": ["first english abbreviation", "second"],
-        "desc": "english description",
-        "ressources": {
-            "first english ressource text": "first english ressource url",
-            "second": "second"
-        }
-    },
-    "fr": {
-        "name": "french name",
-        "abbrs": ["first french abbreviation", "second"],
-        "desc": "french description",
-        "ressources": {
-            "first french ressource text": "first french ressource url",
-            "second": "second"
-        }
-    }
-}
-```
+* `name`: a string containing, well, you guessed, the name ;
+* `abbrs`: an array of strings of the abbreviations the term can have ;
+* `desc`: a description of the term, the definition ;
+* `ressources`: an object containing links related to the term and strings describing those links as keys ;
+* `related`: **only if in [en-US.json](src/data/en-US.json)**, used to link a term to other ones, using an array of IDs (as strings).

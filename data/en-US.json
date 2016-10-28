@@ -1,2 +1,13 @@
 {
+    "unit testing": {
+        "name": "Unit testing",
+        "abbrs": ["Unit tests"],
+        "desc": "Unit testing is a way to make sure that changes in ou code won't break something we don't expect. We describe every use cases of our code and what it should do and if a test fails, we are warned. This prevents unexpected errors later on.",
+        "ressources": {
+            "PHP unit testing framework": "https://phpunit.de/",
+            "Python integrated unit testing framework": "https://docs.python.org/3/library/unittest.html",
+            "Golang integrated unit testing framework": "https://golang.org/pkg/testing/"
+        },
+        "related": []
+    }
 }

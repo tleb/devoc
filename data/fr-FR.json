@@ -4,7 +4,6 @@
         "abbrs": ["tests unitaires"],
         "desc": "Le test unitaire permet de s'assurer qu'un changement dans notre code ne cassera rien d'inattendu. Nous décrivons chaque cas d'usage de notre code et ce qu'il devrait faire et si le test échoue, nous sommes prévenu. Ceci prévient des erreurs inattendus plus tard.",
         "ressources": {
-            "Framework PHP":
             "Framework PHP": "https://phpunit.de/",
             "Framework Python intégré": "https://docs.python.org/3/library/unittest.html",
             "Framework Golang intégré": "https://golang.org/pkg/testing/"

@@ -9,5 +9,13 @@
             "Golang integrated framework": "https://golang.org/pkg/testing/"
         },
         "related": []
+    },
+    "api": {
+        "name": "Application Programming Interface",
+        "abbrs": ["API"],
+        "desc": "An API is an interface made specifically to interact with the state or behaviour of another program. In programs, we interact with OSes, databases, websites, etc, using APIs. The protocols and the data formats used vary greatly.",
+        "ressources": {
+        },
+        "related": []
     }
 }

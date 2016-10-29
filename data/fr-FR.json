@@ -9,5 +9,12 @@
             "Framework Golang intégré": "https://golang.org/pkg/testing/"
         },
         "related": []
+    },
+    "api": {
+        "name": "Interface de programmation",
+        "abbrs": ["API"],
+        "desc": "Une API est une interface créé pour interagir avec l'état ou le comportement d'un autre programme. Dans des programmes, nous intéragissons avec les OS, bases de données, sites web, etc, en utilisant des API. Les protocoles et formats de données utilisés varient grandement.",
+        "ressources": {
+        }
     }
 }
